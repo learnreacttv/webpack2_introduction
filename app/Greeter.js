@@ -1,5 +1,5 @@
-export default function(greet) {
+export default function() {
   var greet = document.createElement('div')
-  greet.textContent = 'Hello ' + greet
+  greet.textContent = 'Hello World!'
   return greet
 }
